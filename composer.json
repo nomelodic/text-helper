@@ -1,0 +1,23 @@
+{
+    "name": "nomelodic/text-helper",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Слава Гапонов",
+            "email": "nomelodic.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nomelodic\\fss\\": "src/"
+        }
+    }
+}
